@@ -1,0 +1,14 @@
+.img-fix{
+    object-fit: cover;
+    object-position: bottom;
+    height: 400px;
+}
+
+#carousel-wrapper img{
+    display: none;
+
+}
+
+#carousel-wrapper img.active{
+    display: block;
+}
